@@ -1,0 +1,26 @@
+.category {
+  display: flex;
+  border-bottom: 1px solid silver;
+
+  &__avatar {
+    width: 100px;
+  }
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    &__des {
+      margin: 0;
+    }
+
+    &__tags {
+      margin: 0;
+      padding-left: 0;
+      display: flex;
+      list-style: none;
+      li {
+        margin-right: 10px;
+      }
+    }
+  }
+}

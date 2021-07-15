@@ -1,0 +1,35 @@
+<div class="question">
+  <div class="question__action">
+    <h3>Learn about: <span>Angular</span></h3>
+    <button class="question__action__btn" (click)="openModalCreate()">New Question</button>
+  </div>
+  <div class="question__ask">
+      <ul class="question__ask__list">
+        <li class="ask-item" *ngFor="let question of questions">
+            <a href="#" class="ask-item__title">{{ question?.title }}</a>
+            <ul class="ask-item__action">
+              <li>
+                  <fa-icon
+                    [icon]="faThumbsUp"
+                    (click)="likeQuestion(question)"
+                  ></fa-icon>
+                  {{question?.like}}
+              </li>
+              <li>
+                  <fa-icon
+                    [icon]="faThumbsDown"
+                    (click)="dislikeQuestion(question)"
+                  ></fa-icon>
+                  {{question?.dislike}}
+              </li>
+              <li>
+                  0
+                  <fa-icon
+                    [icon]="faCommentDots"
+                  ></fa-icon>
+              </li>
+            </ul>
+        </li>
+      </ul>
+  </div>
+</div>

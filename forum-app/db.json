@@ -1,0 +1,98 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "title": "Angular",
+      "slug": "angular",
+      "imgURL": "https://angular.io/assets/images/logos/angular/angular.svg",
+      "description": "Angular is a platform that makes it easy to build applications with the web.",
+      "tags": [
+        {
+          "title": "Angular JS"
+        },
+        {
+          "title": "Angular 2"
+        },
+        {
+          "title": "Angular 4"
+        },
+        {
+          "title": "Angular 5"
+        },
+        {
+          "title": "Angular 6"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Angular Cli",
+      "slug": "angular-cli",
+      "imgURL": "https://angular.io/generated/images/marketing/concept-icons/cli.svg",
+      "description": "Angular cli is a command line interface to scaffold and build angular apps using nodejs style modules.",
+      "tags": [
+        {
+          "title": "Angular CLI"
+        },
+        {
+          "title": "Testing"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Typescript",
+      "slug": "typescript",
+      "imgURL": "https://s.gravatar.com/avatar/3e2b342616822f8eabc9dd393840db4a?size=496&default=retro",
+      "description": "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.",
+      "tags": [
+        {
+          "title": "Javascript"
+        },
+        {
+          "title": "Webpack"
+        },
+        {
+          "title": "Typescript 2.x"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "categoryID": 1,
+      "title": "Where can I buy beautiful and updated Angular 5 templates?",
+      "like": 1,
+      "dislike": 0
+    },
+    {
+      "id": 2,
+      "categoryID": 1,
+      "title": "Should I care about AOT",
+      "like": 0,
+      "dislike": 1
+    },
+    {
+      "id": 44,
+      "categoryID": 1,
+      "title": "ccccccc",
+      "like": 0,
+      "dislike": 0
+    },
+    {
+      "id": 99,
+      "categoryID": 1,
+      "title": "cccccccc",
+      "like": 0,
+      "dislike": 0
+    },
+    {
+      "id": 87,
+      "categoryID": 1,
+      "title": "444444444",
+      "like": 0,
+      "dislike": 0
+    }
+  ]
+}

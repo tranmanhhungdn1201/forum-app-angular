@@ -1,4 +1,8 @@
 <div class="container">
-  Learn all about Angular
-  <app-category-item></app-category-item>
+  <h3 class="text-danger">
+    Learn all about Angular
+  </h3>
+  <div class="container__list" *ngFor="let category of categories">
+    <app-category-item [category]="category"></app-category-item>
+  </div>
 </div>
